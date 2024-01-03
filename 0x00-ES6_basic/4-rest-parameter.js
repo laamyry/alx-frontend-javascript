@@ -1,1 +1,3 @@
-#!/usr/bin/node
+export default function returnHowManyArguments(...many) {
+  return many.length;
+}
