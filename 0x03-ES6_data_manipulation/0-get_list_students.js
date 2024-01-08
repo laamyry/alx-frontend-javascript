@@ -1,8 +1,6 @@
 export default function getListStudents() {
-  let output = [
-    { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
-    { id: 2, firstName: 'James', location: 'Columbia' },
-    { id: 5, firstName: 'Serena', location: 'San Francisco' },
-  ];
-  return output;
+  const std1 = { id: 1, firstName: 'Guillaume', location: 'San Francisco' };
+  const std2 = { id: 2, firstName: 'James', location: 'Columbia' };
+  const std3 = { id: 5, firstName: 'Serena', location: 'San Francisco' };
+  return [std1, std2, std3];
 }
